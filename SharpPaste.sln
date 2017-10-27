@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpPaste", "SharpPaste.csproj", "{F8987162-0D3B-4F7B-8B6E-41F3BDE96F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPCli", "SPCli\SPCli.csproj", "{16D292B5-12BE-40DE-B06A-BC9ACCCBCCD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F8987162-0D3B-4F7B-8B6E-41F3BDE96F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8987162-0D3B-4F7B-8B6E-41F3BDE96F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8987162-0D3B-4F7B-8B6E-41F3BDE96F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D292B5-12BE-40DE-B06A-BC9ACCCBCCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D292B5-12BE-40DE-B06A-BC9ACCCBCCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D292B5-12BE-40DE-B06A-BC9ACCCBCCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D292B5-12BE-40DE-B06A-BC9ACCCBCCD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
