@@ -1,14 +1,15 @@
 # SharpPaste
-[![Build Status](https://img.shields.io/travis/phonicmouse/SharpPaste.svg?style=flat-square)](https://travis-ci.org/phonicmouse/SharpPaste)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/phonicmouse/SharpPaste/master/LICENSE)
+[![Travis CI](https://img.shields.io/travis/phonicmouse/SharpPaste.svg?style=flat-square)](https://travis-ci.org/phonicmouse/SharpPaste)
+[![AppVeyor](https://img.shields.io/appveyor/ci/phonicmouse/sharppaste.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/phonicmouse/sharppaste)
+[![Gitter](https://img.shields.io/badge/chat_on-gitter-green.svg?style=flat-square&logo=gitter-white&colorB=ed1965)](https://gitter.im/SharpPasteZ)
 
-A simple and Open-Source C# ASP.NET/NancyFX pastebin backed by AES-256, made with :heart: in Italy :it:.
+A simple and Open-Source C# ASP.NET/NancyFX pastebin backed by AES-256 client-side, made with :heart: in Italy :it:.
 
 ## Software Used
 * Mono - C# Cross-Platform Compiler
 * NancyFX - Open Source Web Framework
 * LiteDB - Embedded Database
-* MlkPwGen - Strong password generator used for paste token
 * [Strong PwGen](https://gist.github.com/jacobbuck/4247179) - Strong key generator
 * Scrypt.js - Key hashing algorithm (used for AES256 keys)
 * AES-JS - Library to encrypt data using AES directly in your browser
@@ -16,7 +17,6 @@ A simple and Open-Source C# ASP.NET/NancyFX pastebin backed by AES-256, made wit
 * Bootstrap Flat Theme - UI Theme
 * jQuery - DOM Framework
 * Prism - Syntax Highlighter
-* Prism Themes - Syntax Highlighter Theming
 
 ## Installation
 
@@ -44,7 +44,7 @@ A simple and Open-Source C# ASP.NET/NancyFX pastebin backed by AES-256, made wit
 
 | Version        | Supported          |
 |:--------------:|:------------------:|
-| latest (5.4.0) | :white_check_mark: |
+| latest (5.4.1) | :white_check_mark: |
 | 5.2.0          | :white_check_mark: |
 | 5.0.1          | :white_check_mark: |
 | 4.8.1          | :white_check_mark: |
